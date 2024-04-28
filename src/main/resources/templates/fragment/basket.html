@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+    <div th:fragment="basket">
+        <a href="/cart" class="nav-link">
+            <img src="/images/carticon.png" alt="Basket" class="floating-basket">
+            <span id="basket" th:text="${count}"></span>
+        </a>
+    </div>
+</body>
+</html>
